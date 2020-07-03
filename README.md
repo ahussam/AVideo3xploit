@@ -13,3 +13,7 @@ You should get a connection on you nc
 
 ![avideo-5](av-5.png)
 
+## Write-up 
+
+https://cube01.io/blog/Avideo-Remote-Code-Execution.html
+
