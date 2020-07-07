@@ -85,7 +85,7 @@ func readConfig(link string) credential {
 
 	var cred credential
 	// File path is set to ubuntu change it based on the server os and filename
-	resp, err := http.Get(link + "plugin/LiveLinks/proxy.php?livelink=file:///C:/xampp/htdocs/AVideo/videos/configuration.php")
+	resp, err := http.Get(link + "plugin/LiveLinks/proxy.php?livelink=file:///var/www/html/AVideo/videos/configuration.php")
 	if err != nil {
 		color.Red("[X] Unable to read config file")
 		panic(err)
