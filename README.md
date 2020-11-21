@@ -1,6 +1,6 @@
 # AVideo3xploit.go
 
-RCE exploit for [AVideo](https://github.com/WWBN/AVideo/)
+RCE exploit for [AVideo](https://github.com/WWBN/AVideo/) 
 
 ```
 root@kali:~# go get github.com/fatih/color
@@ -16,4 +16,8 @@ You should get a connection on you nc
 ## Write-up 
 
 https://cube01.io/blog/Avideo-Remote-Code-Execution.html
+
+## CVE 
+
+CVE-2020-23489 & CVE-2020-23490
 
